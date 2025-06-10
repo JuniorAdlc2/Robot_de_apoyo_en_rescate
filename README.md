@@ -1,6 +1,6 @@
-# Proyecto: robot-de-ayuda-en-rescate
+# Proyecto: Robot de ayuda en rescate
 ## 🎯 Objetivo
-Describir brevemente qué problema resuelve o qué hace el proyecto.
+El objetivo del proyecto es crear un auto a control remoto que ayude en la localizacion de personas despues de terremotos o colapsos estructurales, este estara equipdo con un esp32 cam .
 ## 👥 Integrantes
 - Romainville Barrionuevo, Camilo Jesús – Rol: [Software / Simulación]
 - Alocén de la Cruz, Saul Junior – Rol: [Documentacion / Revisión]
