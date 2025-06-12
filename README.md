@@ -3,7 +3,7 @@
 El objetivo del proyecto es crear un auto a control remoto que ayude en la localizacion de personas despues de terremotos o colapsos estructurales, este estara equipdo con un esp32 cam .
 ## 👥 Integrantes
 - Romainville Barrionuevo, Camilo Jesús – Rol: [Software / Simulación]
-- Alocén de la Cruz, Saul Junior – Rol: [Documentacion / Revisión]
+- Alocén de la Cruz, Saul Junior – Rol: [Documentacion / Revisión / Redacción]
 - Esquivel Giraldo, Hiram Renato – Rol: [Redacción / Documentación / Supervición]
 - Carmona Cerazo, Abram Yexuan - Rol: [Hardware / Pruebas]
 - Huaman Ramos, Jhonatan Rodrigo - Rol: [Hardware / Pruebas / documentación]
