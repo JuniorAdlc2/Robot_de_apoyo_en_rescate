@@ -6,6 +6,8 @@ Agregado:
 - Subida del Informe del proyecto en "documentos" (Introduccion, Objetivos, Marco teorico/conceptual, Metodologia, Materiales, Esquemas).
 - Subida de los circuito del vehiculo (V1 y V1.1:cambio de Arduino a Arduino Nano) en "esquematicos".
 - Subida del circuito del sensor acústico (V1) en "esquematicos".
+- Se agrego la carpeta "Codigos" este apartado es para los codigo de la camara (esp32) y el vehiculo
+- Subida de codigo del movimiento en "vehiculo"
 
 [V2.0]-10-06-2025
 Añadido:
