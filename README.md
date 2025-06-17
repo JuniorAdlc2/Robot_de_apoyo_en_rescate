@@ -3,6 +3,8 @@
 El objetivo del proyecto es crear un auto a control remoto que ayude en la localizacion de personas durante colpasos estructurales, el cual estara equipado con un sensor acustico y un sensor facial, también este dispositivo contara con una IA que se encagara de recopilar la información optenida de los sensores, entregando los datos mas relevantes mejorando la eficiencia de busqueda.
 
 Pese a que el proyecto aún se encuentra en fase de prueba, su implemetacion podria generar un impacto positivo en labores de localizacion de personas, beneficiando a organizaciones humanitarias, cuerpos de seguridad e instituciones de proteccion civil.
+estado: En desarrollo.
+
 ## 👥 Integrantes
 - Romainville Barrionuevo, Camilo Jesús – Rol: [Software / Simulación]
 - Alocén de la Cruz, Saul Junior – Rol: [Documentacion / Revisión / Redacción]
@@ -10,16 +12,10 @@ Pese a que el proyecto aún se encuentra en fase de prueba, su implemetacion pod
 - Carmona Cerazo, Abram Yexuan - Rol: [Hardware / Pruebas]
 - Huaman Ramos, Jhonatan Rodrigo - Rol: [Hardware / Pruebas / documentación]
 - Carbajal Coral, Joshua - Rol: [Software / Simulación]
+  
 ## 📁 Estructura del proyecto
-- `/docs`: informes, presentación, cronograma
-- `/codigo`: programas (Arduino, Python)
+- `/documentos`: informes, presentación, cronograma
 - `/esquematicos`: circuitos en Proteus, PDF
 - `/pruebas`: resultados, fotos del circuito, videos
-- `/recursos`: datasheets, enlaces técnicos?
 - `README.md`: este documento
-## 📅 Avances semanales
-| Semana | Actividad realizada | Responsable |
-
-## 🔗 Enlaces relevantes
-- [Carpeta de Drive]( Documento ...x seguridad....)
-- [Presentación en PDF?]
+- "resultados": apartado de datos y graficos
