@@ -1,0 +1,82 @@
+int mo1ad=10;  // motor 1 - adelante
+int mo1at=9;   // motor 1 - atras 
+int mo2ad=12;  // motor 2 - adelante
+int mo2at=11;  // motor 2 - atras
+ 
+char val='S';   //variable para almacenar comando inicial
+ 
+void setup() {        // configurar los pines como salidas
+pinMode(mo1ad,OUTPUT);
+pinMode(mo1at,OUTPUT);
+pinMode(mo2ad,OUTPUT);
+pinMode(mo2at,OUTPUT);
+Serial. Begin(9600);    //se inicia la comunicacion a 9600 baudios
+}
+void loop(){     // verifica si hay datos disponibles en el puerto Serial
+    if (Serial.available()>0){
+    val =Serial.read();     // leera el caracter recibido
+    Serial.println(val);
+    }
+ 
+if(val=='F'){                   // adelante Forward
+  digitalWrite(mo1ad,HIGH);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,HIGH);
+  digitalWrite(mo2at,LOW);
+}
+ 
+else  if(val=='B'){              // atras Backward
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,HIGH);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,HIGH);
+}
+ 
+else if (val=='L'){              // girar a la izquierda Left
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,HIGH );
+  digitalWrite(mo2at,LOW);
+}
+ 
+else  if(val=='R'){              //girar a la derecha Right
+  digitalWrite(mo1ad,HIGH);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,LOW);
+}
+ 
+else if (val=='S'){              // detenerse Stop
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,LOW);
+}
+else  if(val=='I'){             // diagonal derecha adelante
+  digitalWrite(mo1ad,HIGH);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,LOW);
+}
+ 
+else if (val=='G'){            // diagonal izquierda adelante
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,HIGH );
+  digitalWrite(mo2at,LOW);
+}
+ 
+else  if(val=='J'){           // diagonal para atras derecha
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,HIGH);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,LOW);
+}
+ 
+else if (val=='H'){            // diagonal atras izquierda
+  digitalWrite(mo1ad,LOW);
+  digitalWrite(mo1at,LOW);
+  digitalWrite(mo2ad,LOW );
+  digitalWrite(mo2at,HIGH);
+}
+}
