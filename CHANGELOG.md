@@ -5,6 +5,7 @@ Historial de cambios relevantes realizados en el proyecto.
 
 Agregado:
 - Se agrego la carpeta "HC-06" en donde se colocara el codigo a utilizar para ayudar a la deteccion de sonidos.
+- Se agrego un readme.md dentro de documentos para indicar los cambios de las versiones.
 
 Actualizacion:
 - Se actualizo el informe a la version V2.2 donde se corrigio la metodologia del auto.
