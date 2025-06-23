@@ -1,6 +1,11 @@
 # 📜 CHANGELOG
 Historial de cambios relevantes realizados en el proyecto.
 
+[V2.3]-22-06-2025
+
+Agregado:
+- Se agrego la carpeta "HC-06" en donde se colocara el codigo a utilizar para ayudar a la deteccion de sonidos.
+
 [V2.2]-17-06-2025
 
 Agregado:
