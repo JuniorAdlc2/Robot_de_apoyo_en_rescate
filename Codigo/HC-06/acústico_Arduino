@@ -1,1 +1,47 @@
-apartado en donde se colocara el codigo del circuito acústico
+#include <Servo.h>
+
+Servo diseno;
+
+const int pinSensor = 2;  
+const int ledPin = 13;
+
+void setup() {
+  pinMode(pinSensor, INPUT);
+  pinMode(ledPin, OUTPUT);
+  diseno.attach(3);       
+  Serial.begin(9600);
+}
+
+void loop() {
+  int sonido = digitalRead(pinSensor);
+  Serial.println(sonido);  
+
+  if (sonido == HIGH) {
+    
+    digitalWrite(ledPin, HIGH);
+    diseno.detach();        
+    delay(100);             
+  } else {
+    
+    digitalWrite(ledPin, LOW);
+
+    if (!diseno.attached()) {
+      diseno.attach(3);     
+    }
+
+    diseno.write(0);
+    delay(5000);
+
+    sonido = digitalRead(pinSensor);
+    if (sonido == HIGH) return;
+
+    diseno.write(90);
+    delay(5000);
+
+    sonido = digitalRead(pinSensor);
+    if (sonido == HIGH) return;
+
+    diseno.write(180);
+    delay(5000);
+  }
+}
