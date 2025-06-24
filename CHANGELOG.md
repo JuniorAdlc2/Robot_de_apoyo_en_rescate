@@ -8,6 +8,7 @@ Añadido:
 - Se agregaron las subcarpetas "IA" y "acústico" dentro de la carpeta "Resultado".
 - Se agrego en la subcarpeta "IA" los resultados de las versiones de las IA 
 - Se agrego en la carpeta "esquematicos" las imagenes del auto con PCB reemplazando el protoboard.
+- Se agrego el codigo al apartado del "HC-06" controlado por un servo y se detiene al detectar un sonido.
 
 [V2.3]-22-06-2025
 
