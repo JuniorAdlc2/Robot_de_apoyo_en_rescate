@@ -1,6 +1,13 @@
 # 📜 CHANGELOG
 Historial de cambios relevantes realizados en el proyecto.
 
+[V2.4]-24-06-2025
+
+Añadido:
+- Se agrego la carpeta "Resultado"
+- Se agregaron las subcarpetas "IA" y "acústico" dentro de la carpeta "Resultado"
+- Se agrego en la subcarpeta "IA" los resultados de una de las pruebas realizadas para determinar si la IA logra captar a una persona en la imagen
+
 [V2.3]-22-06-2025
 
 Agregado:
