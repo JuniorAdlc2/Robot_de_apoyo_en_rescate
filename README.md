@@ -1,4 +1,4 @@
-# Proyecto: Robot de ayuda en rescate
+# Proyecto: Robot de apoyo en rescate
 ## 🎯 Objetivo
 El objetivo del proyecto es crear un auto a control remoto que ayude en la localizacion de personas durante colpasos estructurales, el cual estara equipado con un sensor acustico y un sensor facial, también este dispositivo contara con una IA que se encagara de recopilar la información optenida de los sensores, entregando los datos mas relevantes mejorando la eficiencia de busqueda.
 
