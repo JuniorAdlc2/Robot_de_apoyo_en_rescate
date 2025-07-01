@@ -1,6 +1,11 @@
 # 📜 CHANGELOG
 Historial de cambios relevantes realizados en el proyecto.
 
+[V2.5]-1-07-2025
+
+añadido:
+- Se agrego la carpeta "Modelos_IA" esta carpeta contiene las versiones de aprendisaje de la IA.
+
 [V2.4]-24-06-2025
 
 Añadido:
