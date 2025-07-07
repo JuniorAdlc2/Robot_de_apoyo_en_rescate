@@ -1,6 +1,11 @@
 # 📜 CHANGELOG
 Historial de cambios relevantes realizados en el proyecto.
 
+[V2,6]-7-07-2025
+
+Actualizacion:
+- Se actualizo el informe a v3 contiene los resultados, materiales y presupuesto 
+
 [V2.5]-1-07-2025
 
 añadido:
