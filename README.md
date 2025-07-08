@@ -18,4 +18,4 @@ estado: En desarrollo.
 - `/esquematicos`: circuitos en Proteus, PDF
 - `/pruebas`: resultados, fotos del circuito, videos
 - `README.md`: este documento
-- "resultados": apartado de datos y graficos
+- 'resultados': apartado de datos y graficos
