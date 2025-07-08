@@ -1,6 +1,11 @@
 # 📜 CHANGELOG
 Historial de cambios relevantes realizados en el proyecto.
 
+[V2,7]-8-07-2025
+
+actualizacion:
+- se actualizo el informe con los resultados y las conclusiones
+
 [V2,6]-7-07-2025
 
 Actualizacion:
