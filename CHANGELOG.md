@@ -3,17 +3,20 @@ Historial de cambios relevantes realizados en el proyecto.
 
 [V2,7]-8-07-2025
 
-actualizacion:
-- se actualizo el informe con los resultados y las conclusiones
+Añadido:
+- Se agrego las pruebas y los resultados de la IA en el documento.
+
+Actualizacion:
+- Se actualizo el informe con los resultados y las conclusiones.
 
 [V2,6]-7-07-2025
 
 Actualizacion:
-- Se actualizo el informe a v3 contiene los resultados, materiales y presupuesto 
+- Se actualizo el informe a v3 contiene parte de los resultados, materiales y presupuesto 
 
 [V2.5]-1-07-2025
 
-añadido:
+Añadido:
 - Se agrego la carpeta "Modelos_IA" esta carpeta contiene las versiones de aprendisaje de la IA.
 
 [V2.4]-24-06-2025
