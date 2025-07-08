@@ -14,8 +14,9 @@ estado: En desarrollo.
 - Carbajal Coral, Joshua - Rol: [Software / Simulación]
   
 ## 📁 Estructura del proyecto
-- `/documentos`: informes, presentación, cronograma
-- `/esquematicos`: circuitos en Proteus, PDF
-- `/pruebas`: resultados, fotos del circuito, videos
-- `README.md`: este documento
-- 'resultados': apartado de datos y graficos
+- `documentos`: Informes, presentación, cronograma
+- `Esquematicos`: Circuitos en Proteus, PDF
+- `Resultado`: Resultados, fotos del circuito, videos
+- `README.md`: Este documento.
+- `modelos_IA`: Apartado en donde se subiran los resultados de los modelos de la IA.
+- `CHANGELOG.md`: Documento en el cual se subiran las actualizaciones del github.
